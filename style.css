@@ -42,22 +42,61 @@ header nav a:hover{
     height: 100vh;
 }
 
-#vermelho {
-    background-color: tomato;
+#gumball {
+    background-color: #72cae6;
+    display: flex;
+    position: relative;
+    gap: -10px;
 }
 
-#verde {
-    background-color: lightgreen;
+.img-gumball{
+    display: flex;
+    height: 75%;
+    width: 30%;
+    margin: auto;
+    margin-left: 60px;
 }
 
-#azul {
-    background-color: lightblue;
+.titulo-gumball {
+    color: rgb(46, 121, 146);
+    display: flex;
+    position: absolute;
+    left: 35%;
+    height: 140px;
+    width: 1290px;
+    margin-top: 15%;
 }
 
-#amarelo {
-    background-color: gold;
+.texto-gumball {
+    display: flex;
+    position: absolute;
+    left: 35%;
+    width: 45%;
+    height: 29%;
+    margin-top: 550px;
 }
 
-#roxo {
-    background-color: purple;
+.texto-gumball p{
+    color: #a56654;
+    font-size: 55px;
+}
+
+.titulo-gumball h1{
+    font-size: 110px;
+}
+
+#darwin {
+    background-color: #FF740F;
+}
+
+#anais {
+    background-color: #fabdc1;
+}
+
+#nicole {
+    background-color: #58d5ed;
+}
+
+#ricardo {
+    background-color: #fbc7ce;
 }
