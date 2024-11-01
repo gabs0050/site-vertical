@@ -87,6 +87,42 @@ header nav a:hover{
 
 #darwin {
     background-color: #FF740F;
+    display: flex;
+    justify-content: center;
+}
+
+.img-darwin{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+
+    width: 75%;
+    height: 50%;
+    margin-left: 2650px;
+}
+
+.img-darwin img{
+    height: 80%;
+}
+
+.texto-darwin{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    margin: 750px;
+    margin-left: 700px;
+    height: 30%;
+}
+
+.texto-darwin{
+    font-size: 50px;
+}
+
+.titulo-darwin{
+    height: 12%;
+    display: flex;
+    font-size: 60px;
+    margin-left: -80%;
 }
 
 #anais {
@@ -100,3 +136,4 @@ header nav a:hover{
 #ricardo {
     background-color: #fbc7ce;
 }
+
