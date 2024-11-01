@@ -21,6 +21,7 @@ header {
     width: 100vw;
     background-color: #333;
     padding: 32px;
+    z-index: 100;
 }
 
 header nav ul{
@@ -34,7 +35,7 @@ header nav a{
 }
 
 header nav a:hover{
-    background-color:  tomato;
+    background-color: gray;
     padding: 8px;
 }
 
@@ -45,8 +46,6 @@ header nav a:hover{
 #gumball {
     background-color: #72cae6;
     display: flex;
-    position: relative;
-    gap: -10px;
 }
 
 .img-gumball{
@@ -60,19 +59,20 @@ header nav a:hover{
 .titulo-gumball {
     color: rgb(46, 121, 146);
     display: flex;
-    position: absolute;
+    position: relative;
+    transform: translateX(-100%);
     left: 35%;
     height: 140px;
-    width: 1290px;
-    margin-top: 15%;
+    width: 800%;
+    margin-top: 11%;
 }
 
 .texto-gumball {
     display: flex;
-    position: absolute;
     left: 35%;
-    width: 45%;
-    height: 29%;
+    transform: translateX(-69.5%);
+    width: 1000%;
+    height: 30%;
     margin-top: 550px;
 }
 
